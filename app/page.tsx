@@ -1,7 +1,9 @@
+import Hero from "../src/components/sections/Hero";
+
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white px-6 py-20 text-[#243746]">
-      <div>test</div>
+    <main className="flex-1">
+      <Hero />
     </main>
   );
 }
